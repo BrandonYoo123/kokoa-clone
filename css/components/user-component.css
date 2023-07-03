@@ -27,7 +27,8 @@
 .user-component__subtitle{
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0,0,0,0.5);
+    color: var(--black);
+    width: 400px;
 }
 
 .user-component__avatar--xl-error{
@@ -67,6 +68,7 @@
 
 .user-component__time{
     margin-bottom: 5px;
+    color: var(--black);
     display: block;
 }
 
@@ -76,4 +78,13 @@
 
 .user-component_image-error{
     width: 80px;
+}
+
+#user-component__margin-top {
+    margin-top: 20px;
+}
+
+.user-component__column i,
+.user-component__column span {
+    color: var(--black);
 }

@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat w/Nicolas - Kokoa Clone</title>
+    <title>Chat w/Jimmy - StarChat</title>
 </head>
 
 <body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>                                  
+            <span>No Orders</span>
+            <i class="fa-solid fa-mug-hot"></i>
         </div>
         <div class="status-bar__column">
-            <span>18.43</span>
+            <span>12:47</span>
         </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
+        <div class="status-bar__column status-bar__mr">
+            <span>0.1%</span>
+            <i class="fa-solid fa-battery-empty"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
@@ -31,7 +31,7 @@
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Nicolas</h1>
+            <h1 id="alt-header__title-black" class="alt-header__title">Jimmy</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
@@ -41,15 +41,15 @@
 
     <main class="main-screen main-chat">
         <div class="chat__timestamp">
-            Tuesday, June 30, 2020
+            Monday, July 3, 2023
         </div>
         <div class="message-row">
-            <img src="https://avatars.githubusercontent.com/u/3612017">
+            <img src="https://static.wikia.nocookie.net/misterbeast/images/6/67/MrBeast_at_the_kids_choice_awards_2022.png/revision/latest?cb=20230410173447">
             <div class="message-row__content">
-                <span class="message__author">Nicolas</span>
+                <span class="message__author">Jimmy Donaldson</span>
                 <div class="message__info">
-                    <span class="message__bubble">Hi!</span>
-                    <span class="message__time">21:27</span>
+                    <span class="message__bubble">Do you want to participate in my upcoming video?</span>
+                    <span class="message__time">11:48</span>
                 </div>
             </div>
         </div>
@@ -57,8 +57,39 @@
         <div class="message-row message-row--own">
             <div class="message-row__content">
                 <div class="message__info">
-                    <span class="message__bubble">Hi nice to meet you!</span>
-                    <span class="message__time">21:27</span>
+                    <span class="message__bubble message__bubble-error">Sure!</span>
+                    <span class="message__time">11:51</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/misterbeast/images/6/67/MrBeast_at_the_kids_choice_awards_2022.png/revision/latest?cb=20230410173447">
+            <div class="message-row__content">
+                <span class="message__author">Jimmy Donaldson</span>
+                <div class="message__info">
+                    <span class="message__bubble">Alright! Meet at the video camp for further intructions.</span>
+                    <span class="message__time">11:52</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble message__bubble-error">Alright, got it!</span>
+                    <span class="message__time">11:52</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/misterbeast/images/6/67/MrBeast_at_the_kids_choice_awards_2022.png/revision/latest?cb=20230410173447">
+            <div class="message-row__content">
+                <span class="message__author">Jimmy Donaldson</span>
+                <div class="message__info">
+                    <span class="message__bubble">Thank you for participating!</span>
+                    <span class="message__time">11:53</span>
                 </div>
             </div>
         </div>
@@ -66,13 +97,13 @@
 
     <form class="reply">
         <div class="reply__column">
-            <i class="far fa-plus-square fa-lg"></i>
+            <i class="icon-color__change far fa-plus-square fa-lg"></i>
         </div>
         <div class="reply__column">
             <input type="text" placeholder="Write a message..."/>
-            <i class="far fa-smile-wink fa-lg"></i>
+            <i id="wink-emoji" class="icon-color__change far fa-smile-wink fa-lg"></i>
             <button>
-                <i class="fas fa-arrow-up fa-lg"></i>
+                <i class="idk-anymore__teacher-nico fas fa-arrow-up fa-lg"></i>
             </button>
         </div>
     </form>
@@ -81,9 +112,6 @@
         <span>Your screen is too big</span>
     </div>
     
-    <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous">
-    </script>
+    <script src="https://kit.fontawesome.com/fc948c7efe.js" crossorigin="anonymous"></script>
 </body>
 </html>

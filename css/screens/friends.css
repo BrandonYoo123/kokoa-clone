@@ -6,10 +6,11 @@
     font-size: 18px;
     margin-bottom: 15px;
     margin-top: -10px;
+    color: var(--black);
 }
 
 #friends-display-link i{
-    color: rgba(0,0,0.3);
+    color: var(--black);
 }
 
 .friends-screen{
@@ -26,7 +27,8 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: rgba(0,0,0,0.5);
+    color: white;
+    opacity: 0.5;
 }
 
 @keyframes hideSplashScreen{
@@ -40,7 +42,7 @@
 }
 
 #splash-screen{
-    background-color: var(--yellow);
+    background-color: var(--green);
     position: absolute;
     height: 100vh;
     width: 100vw;
